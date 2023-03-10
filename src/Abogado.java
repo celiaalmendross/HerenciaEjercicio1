@@ -1,7 +1,7 @@
 public class Abogado extends Empleado {
 
     public void MostrarMensaje(){
-        System.out.println("Estoy haciendo fotocopias");
+        System.out.println("Estoy en el tribunal");
     }
     @Override
     public int getVacaciones(){

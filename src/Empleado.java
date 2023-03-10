@@ -13,4 +13,3 @@ public class Empleado {
         public String getMesVacaciones() {
             return "Agosto"; } // mes de vacaciones
     }
-}
