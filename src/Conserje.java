@@ -1,11 +1,7 @@
-public class secretario extends Empleado{
+public class Conserje extends Empleado{
     @Override
     public double getSalario() {
-        return super.getSalario() ;
-    }
-    @Override
-    public int getVacaciones(){
-        return super.getVacaciones() + 5;
+        return super.getSalario() + 5000;
     }
     @Override
     public int getHoras() {
@@ -13,10 +9,9 @@ public class secretario extends Empleado{
     }
     @Override
     public String getMesVacaciones() {
-        return "Septiembre";
+        return "Agosto";
     }
     public void MostrarMensaje(){
         System.out.println("Estoy haciendo fotocopias");
     }
-
 }
